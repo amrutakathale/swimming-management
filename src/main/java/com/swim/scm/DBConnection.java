@@ -5,10 +5,9 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 	public static Connection con;
-	private static String Url ="jdbc:mysql://localhost:3306/swim_db";
+	private static String Url ="mysql://root:dnxKFNUUKByZVYaTMSxpoWpBdBEtehAI@switchback.proxy.rlwy.net:42481/railway";
 	private static String Root="root";
-	private static String Password="Amruta@143";
-	
+	private static String Password="dnxKFNUUKByZVYaTMSxpoWpBdBEtehAI";
 	public static Connection getConnection() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
